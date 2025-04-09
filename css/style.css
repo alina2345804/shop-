@@ -1,0 +1,380 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --brown: #B45F4D;
+  --light-beige: #F6F4EC;
+  --white: #FFFFFF;
+  --red-brown: #B4604D;
+  --light-brown: #C17C6C;
+  --beige: #F1D3B9;
+  --black: #000000;
+  --olive: #A9AE8D;
+  --mahogany: #B36050; 
+  --dark-beige: #DF9B7A;
+  --light-grey: #F8F8F8; 
+  --light-pink: #FBD7D0; 
+}
+header, section, footer {
+  width: 1800px;
+  margin: 0 auto;
+}
+/* Шапка */
+.frame {
+  height: 155px;
+}
+/* Текст сверху */
+.frame_first {
+  height: 65px;
+  background-color: var(--mahogany);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.farme_text {
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--beige);
+}
+/* Список */
+.frame_two {
+  display: flex;
+}
+.nav_bar {
+  width: 456px;
+  padding-left: 30px;
+}
+.nav_bar-frame {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 35px 0 35px 0;
+}
+.nav_bar-li a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: var(--red-brown);
+}
+/* Логотип */
+.frame_logo {
+  width: 150px;
+  height: 60px;
+  margin: 15px 0 0 365px;
+}
+/* Аккаун */
+.farme_account {
+  margin: 30px 0 0 680px;
+}
+.farme_account a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--brown);
+}
+/* Корзина */
+.farme_shop {
+  margin: 25px 5px 0 20px;
+}
+/* Цифра с корзиной */
+.frame_number {
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--red-brown);
+  margin-top: 28px;
+}
+/* Второй блок */
+.frame_block {
+  background-image: url(../img/Block.png);
+  height: 541px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* margin-top: 28px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Кнопка */
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 340px;
+  border: 1px solid var(--brown);
+  background-color: var(--brown);
+  width: 160px;
+  height: 62px;
+}
+.block_batton {
+}
+.block_batton a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 19px;
+  color: var(--white);
+}
+/* Блок третий */
+.frame_block-free {
+  height: 380px;
+  background-color: var(--olive);
+}
+/* Весь текст */
+.frame_text {
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+  padding-top: 90px;
+  padding-left: 87px;
+}
+/* Первый текст вопрос */
+.frame_text-p {
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: var(--light-beige);
+}
+/* Второй */
+.frame_h {
+  font-weight: 400;
+  font-size: 40px;
+  color: var(--light-beige);
+}
+/* Третий */
+.free_p {
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--light-beige);
+}
+/* Блок четвертый */
+.frame_nav {
+  height: 1050px;
+  background-color: var(--light-beige);
+}
+/* Контейнер под фото и цены */
+/* .frame_nav-container {
+  margin: 0 auto;
+} */
+.nav_text {
+  padding-top: 55px;
+  font-weight: 400;
+  font-size: 29px;
+  text-align: center;
+  color: #b45f4d;
+}
+/* фото и цены */
+.container-frame {
+  margin-top: 69px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 110px;
+}
+.frame_img-container {
+
+}
+/* Название продукта */
+.nav_p {
+  padding-top: 20px;
+}
+.nav_p a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #b45f4d;
+}
+/* Цена продукта */
+.nav-number {
+  padding-top: 15px;
+}
+.nav-number a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #b45f4d;
+}
+
+/* Блок пятый */
+.frame-fife {
+  height: 500px;
+}
+.fife_img {
+  padding-top: 24px;
+  position: relative;
+  max-width: 1500px;
+  margin: 0 auto;
+  height: auto;
+  overflow: hidden;
+}
+.fife-card {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.fife-block {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px 27px;
+  background-color: var(--dark-beige);
+  width: 1500px;
+  height: 110px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 1220px;
+  height: 92px;
+  background-color: var(--dark-beige);
+  margin: 0 auto; */
+}
+.fife_text {
+  padding-top: 15px;
+  font-weight: 400;
+  font-size: 22.7px;
+  text-transform: uppercase;
+  color: var(--light-beige);
+}
+.fife_button {
+  padding-top: 15px;
+}
+.fife_button a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 22px;
+  color: var(--light-beige);
+}
+/* Блок шестой */
+.freme_six {
+  height: 1335px;
+  background-color: var(--beige);
+  margin-top: 105px;
+}
+.six_meet {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  padding-top: 75px;
+  position: relative;
+  width: 1220px;
+  margin-left: 230px ;
+}
+.six_img {
+  width: 790px;
+  height: 1185px;
+  display: block;
+}
+.six_card {
+  position: absolute;
+  top: 355px;
+  left: 728px;
+  background-color: var(--white);
+  padding: 40px 30px;
+  border: solid 1px var(--white);
+  width: 650px;
+  height: 730px;
+}
+.six-h {
+  padding-top: 40px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 35px;
+  color: var(--brown);
+}
+.six_text {
+  padding-top: 42px;
+  padding-left: 34px;
+  line-height: 38px;
+  font-weight: 400;
+  font-size: 22px;
+  color: var(--brown);
+}
+.six_san {
+  padding-top: 58px;
+  padding-left: 35px;
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--brown);
+}
+/* Седьмой блок */
+.freme_seven {
+  height: 260px;
+  background-color: var(--white);
+}
+.seven_h {
+  padding-top: 37px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 170%;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--black);
+}
+.seven_img {
+  padding-top: 60px;
+  display: flex;
+  gap: 10px;
+}
+.seven-dae {
+  width: 300px;
+}
+
+/* Подполье */
+.frame_end {
+  height: 500px;
+  background-color: var(--light-beige);
+  margin-top: 95px;
+  border: 1px solid var(--white); 
+  border-top: 3px solid var(--beige); 
+}
+.nav_bar-end {
+  display: flex;
+  justify-content: space-between;
+}
+.spisok-end {
+  padding-left: 55px;
+  display: flex;
+  gap: 180px;
+}
+.name {
+  padding-top: 75px;
+  list-style: none;
+}
+.name li {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 37px;
+  color: var(--red-brown);
+}
+.info_end {
+  padding-top: 75px;
+  padding-right: 205px;
+}
+.info-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--light-brown);
+}
+.end-text {
+  padding-top: 27px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: var(--light-brown);
+}
+.end {
+  padding-left: 50px;
+  padding-top: 175px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: var(--light-brown);
+}
